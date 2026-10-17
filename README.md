@@ -1,6 +1,6 @@
 # Huikang Jiang’s personal website
 
-Personal academic website for https://huikangjiang06.github.io/, based on the current résumé. The layout is inspired by [Naimeng Ye’s website](https://naimengye.github.io/); the HTML and CSS are maintained directly here.
+Personal academic website for https://huikangjiang06.github.io/, based on the current résumé. The HTML and CSS are maintained directly here.
 
 ## Files
 
@@ -8,7 +8,7 @@ Personal academic website for https://huikangjiang06.github.io/, based on the cu
 - `styles.css`: responsive styling, including automatic dark mode.
 - `assets/profile.png`: square headshot cropped from the user-supplied photo.
 - `assets/huikang-jiang-cv.pdf`: English CV.
-- `assets/huikang-jiang-cv-bilingual.pdf`: Chinese-first bilingual CV.
+- `assets/huikang-jiang-cv-bilingual.pdf`: Chinese-first bilingual CV, linked from the website’s CV button.
 - `.nojekyll`: serves the files as a plain static website on GitHub Pages.
 
 No build step, packages, API keys, or external fonts are required.
