@@ -4,7 +4,8 @@ Personal academic website for https://huikangjiang06.github.io/, based on the cu
 
 ## Files
 
-- `index.html`: introduction, résumé content, contact links, and paper links.
+- `index.html`: English introduction, résumé content, contact links, and paper links.
+- `zh/index.html`: Chinese version, available at https://huikangjiang06.github.io/zh/.
 - `styles.css`: responsive styling, including automatic dark mode.
 - `assets/profile.jpg`: the user-supplied square photo, used without further image edits.
 - `assets/personal-seal.png`: transparent cutout of the user’s red personal seal, displayed 90° counterclockwise beside the name at the bottom-right of the page.
@@ -30,9 +31,9 @@ In the repository’s **Settings → Pages**, choose **Deploy from a branch**, s
 
 ## Updating content
 
-Edit `index.html` to change text or links. Replace the two PDFs in `assets/` when the résumé changes; keep their filenames so existing links continue to work. The current paper review status is copied from the résumé: ICLR 2027.
+Edit `index.html` and `zh/index.html` together to keep text and links consistent across languages. The language button beside Email, GitHub, LinkedIn, and CV switches between the two static pages, without JavaScript. Keep paper titles, lab/company names, Simin Chen, and unverified award names in English. Both CV buttons open the same bilingual PDF. Replace the two PDFs in `assets/` when the résumé changes; keep their filenames so existing links continue to work. The current paper review status is copied from the résumé: ICLR 2027.
 
-After editing `styles.css`, update its `v` query parameter in `index.html` to the first 12 characters of the stylesheet’s SHA-256 hash (`sha256sum styles.css`). This avoids browsers reusing cached styles after an update. The footer can be linked directly with `#signature`.
+After editing `styles.css`, update its `v` query parameter in both HTML pages to the first 12 characters of the stylesheet’s SHA-256 hash (`sha256sum styles.css`). This avoids browsers reusing cached styles after an update. The footer can be linked directly with `#signature`.
 
 The profile photo is in `assets/profile.jpg`. Keep replacement photos square; the page displays the image with square corners at 208 × 208 pixels on desktop and 120 × 120 pixels on mobile.
 

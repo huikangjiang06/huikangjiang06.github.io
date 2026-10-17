@@ -40,6 +40,12 @@ h1 { font-size: 40px; letter-spacing: -0.8px; }
 h2 { font-size: 28px; }
 h3 { font-size: 16px; font-weight: 600; }
 
+html[lang="zh-Hans"] body {
+  font-family: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+}
+html[lang="zh-Hans"] h1 { letter-spacing: 0.06em; }
+html[lang="zh-Hans"] .introduction p { line-height: 1.85; }
+
 .skip-link {
   position: absolute;
   left: 16px;
@@ -120,8 +126,6 @@ section > h2 {
   white-space: nowrap;
 }
 .entry-heading h3 { flex: 1 1 480px; }
-.service-heading h3 { flex-basis: 100%; }
-.service-heading .date { margin-left: auto; }
 .publication { margin-bottom: 28px; }
 .publication h3 { font-size: 17px; line-height: 1.5; margin-bottom: 5px; }
 .publication p { margin-bottom: 7px; }
@@ -176,7 +180,8 @@ footer a { color: inherit; text-decoration: underline; text-underline-offset: 3p
   h1 { font-size: 36px; }
   h2 { font-size: 26px; }
   .identity p { font-size: 14px; }
-  .contact-links { gap: 7px; }
+  .contact-links { width: 100%; gap: 7px; }
+  .language-switch { margin-left: auto; }
   .button { min-height: 44px; padding: 6px 8px; gap: 5px; font-size: 14px; }
   .button svg { flex-basis: 16px; width: 16px; height: 16px; }
   .introduction { display: block; }
