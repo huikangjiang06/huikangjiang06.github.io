@@ -5,7 +5,7 @@
 - Use the user's own square crop without further image edits. Display it with square corners. Preserve the photo unless the user asks to change it.
 - Keep this a simple static GitHub Pages website. No framework or build step is needed.
 - Text links inherit the surrounding text color and use underlines, including on hover. Keep the navigation buttons monochrome with their existing pill styling.
-- Keep the English page in `index.html` and the Chinese page in `zh/index.html` consistent. The language switch belongs alongside Email, GitHub, LinkedIn, and CV. Keep paper titles, lab/company names, Simin Chen, and unverified award names in English.
+- Keep the English page in `index.html` and the Chinese page in `zh/index.html` consistent. The language switch belongs alongside GitHub, LinkedIn, and CV. Keep the email address as plain text in the introduction, without an email button. Keep paper titles, lab/company names, Simin Chen, and unverified award names in English.
 - After changing `styles.css`, update the stylesheet URL's `v` query parameter in both HTML pages to the first 12 characters of the file's SHA-256 hash so browsers fetch the new styles.
 - The website’s CV button links to the Chinese-first bilingual PDF. Keep both PDF files working at their existing paths when updating them.
 - After each completed edit, validate the result, commit the task-related files, and push the current branch. The user has authorized this workflow.
