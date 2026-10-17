@@ -3,7 +3,6 @@
   --background: #f8f9fa;
   --text: #212529;
   --muted: #5e646b;
-  --link: #006dcc;
   --border: #d9dde1;
   --button-background: #ffffff;
   --button-border: #a6aaae;
@@ -30,9 +29,8 @@ body {
   padding: 0 20px;
 }
 
-a { color: var(--link); text-decoration: none; }
-a:hover { text-decoration: underline; text-underline-offset: 3px; }
-a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; border-radius: 2px; }
+a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; border-radius: 2px; }
 p { margin: 0 0 12px; }
 h1, h2, h3 { margin: 0; line-height: 1.3; }
 h1, h2 { font-weight: 300; }
@@ -78,6 +76,7 @@ html[lang="zh-Hans"] .introduction p { line-height: 1.85; }
   background: var(--button-background);
   color: var(--text);
   line-height: 1.5;
+  text-decoration: none;
 }
 .button:hover { background: var(--text); color: var(--background); text-decoration: none; }
 .button svg { flex: 0 0 18px; width: 18px; height: 18px; }
@@ -99,7 +98,6 @@ html[lang="zh-Hans"] .introduction p { line-height: 1.85; }
 }
 .introduction h2 { margin: 0 0 14px; padding: 0; border: 0; }
 .intro-contact { font-size: 15px; }
-.introduction p a, .publication p a { text-decoration: underline; text-underline-offset: 3px; }
 
 main > section + section { margin-top: 32px; }
 section > h2 {
@@ -156,7 +154,6 @@ footer {
 }
 footer p { margin: 0; }
 footer span { margin: 0 5px; }
-footer a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .personal-seal {
   flex: 0 0 auto;
   display: block;
@@ -201,7 +198,6 @@ footer a { color: inherit; text-decoration: underline; text-underline-offset: 3p
     --background: #1b1e1f;
     --text: #dedbd6;
     --muted: #b2b2b0;
-    --link: #67b8ff;
     --border: #414547;
     --button-background: #242729;
     --button-border: #74797c;
@@ -210,7 +206,7 @@ footer a { color: inherit; text-decoration: underline; text-underline-offset: 3p
 }
 
 @media print {
-  :root { color-scheme: light; --background: #fff; --text: #000; --muted: #444; --link: #000; --border: #ccc; }
+  :root { color-scheme: light; --background: #fff; --text: #000; --muted: #444; --border: #ccc; }
   body { font-size: 11pt; }
   .container { max-width: none; padding: 0; }
   .site-header { margin-top: 0; }
