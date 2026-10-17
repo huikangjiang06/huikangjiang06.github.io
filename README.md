@@ -6,7 +6,7 @@ Personal academic website for https://huikangjiang06.github.io/, based on the cu
 
 - `index.html`: introduction, résumé content, contact links, and paper links.
 - `styles.css`: responsive styling, including automatic dark mode.
-- `assets/profile.png`: square headshot cropped from the user-supplied photo.
+- `assets/profile.jpg`: the user-supplied square photo, used without further image edits.
 - `assets/huikang-jiang-cv.pdf`: English CV.
 - `assets/huikang-jiang-cv-bilingual.pdf`: Chinese-first bilingual CV, linked from the website’s CV button.
 - `.nojekyll`: serves the files as a plain static website on GitHub Pages.
@@ -31,6 +31,6 @@ In the repository’s **Settings → Pages**, choose **Deploy from a branch**, s
 
 Edit `index.html` to change text or links. Replace the two PDFs in `assets/` when the résumé changes; keep their filenames so existing links continue to work. The current paper review status is copied from the résumé: ICLR 2027.
 
-The profile photo is in `assets/profile.png`. Keep replacement photos square; the page displays the image at 176 × 176 pixels on desktop and 104 × 104 pixels on mobile.
+The profile photo is in `assets/profile.jpg`. Keep replacement photos square; the page displays the image with square corners at 208 × 208 pixels on desktop and 120 × 120 pixels on mobile.
 
 Check the desktop and mobile layouts before committing and pushing edits.

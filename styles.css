@@ -78,16 +78,16 @@ h3 { font-size: 16px; font-weight: 600; }
 
 .introduction {
   display: grid;
-  grid-template-columns: 176px minmax(0, 1fr);
+  grid-template-columns: 208px minmax(0, 1fr);
   align-items: start;
   gap: 26px;
   margin-bottom: 30px;
 }
 .profile-photo {
   display: block;
-  width: 176px;
-  height: 176px;
-  border-radius: 10%;
+  width: 208px;
+  height: 208px;
+  border-radius: 0;
   background: var(--photo-background);
   object-fit: cover;
 }
@@ -167,7 +167,7 @@ footer a { color: inherit; text-decoration: underline; text-underline-offset: 3p
   .button { min-height: 44px; padding: 6px 8px; gap: 5px; font-size: 14px; }
   .button svg { flex-basis: 16px; width: 16px; height: 16px; }
   .introduction { display: block; }
-  .profile-photo { float: left; width: 104px; height: 104px; margin: 3px 18px 10px 0; }
+  .profile-photo { float: left; width: 120px; height: 120px; margin: 3px 18px 10px 0; }
   .introduction::after { content: ""; display: block; clear: both; }
   .introduction h2 { margin-bottom: 12px; }
   .intro-contact { clear: both; padding-top: 2px; overflow-wrap: anywhere; }
