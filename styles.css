@@ -140,14 +140,27 @@ section > h2 {
 .award-result { color: var(--muted); font-size: 14px; text-align: right; flex-shrink: 0; }
 
 footer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: end;
+  gap: 16px;
   margin: 48px 0 28px;
+  padding: 0 24px;
   text-align: center;
   color: var(--muted);
   font-size: 13px;
 }
-footer p { margin: 0; }
+footer p { grid-column: 2; margin: 0; }
 footer span { margin: 0 5px; }
 footer a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.personal-seal {
+  grid-column: 3;
+  justify-self: end;
+  display: block;
+  width: 88px;
+  height: 88px;
+  object-fit: contain;
+}
 
 @media (max-width: 800px) {
   .site-header { align-items: flex-start; }
@@ -174,7 +187,8 @@ footer a { color: inherit; text-decoration: underline; text-underline-offset: 3p
   main > section + section { margin-top: 28px; }
   section > h2 { margin-bottom: 18px; }
   .publication h3 { font-size: 16px; }
-  footer { margin-top: 36px; }
+  footer { margin-top: 36px; padding: 0 20px; }
+  .personal-seal { width: 64px; height: 64px; }
 }
 
 @media (prefers-color-scheme: dark) {

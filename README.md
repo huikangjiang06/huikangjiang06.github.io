@@ -7,6 +7,7 @@ Personal academic website for https://huikangjiang06.github.io/, based on the cu
 - `index.html`: introduction, résumé content, contact links, and paper links.
 - `styles.css`: responsive styling, including automatic dark mode.
 - `assets/profile.jpg`: the user-supplied square photo, used without further image edits.
+- `assets/personal-seal.png`: transparent cutout of the user’s red personal seal, displayed at the bottom-right of the page.
 - `assets/huikang-jiang-cv.pdf`: English CV.
 - `assets/huikang-jiang-cv-bilingual.pdf`: Chinese-first bilingual CV, linked from the website’s CV button.
 - `.nojekyll`: serves the files as a plain static website on GitHub Pages.
