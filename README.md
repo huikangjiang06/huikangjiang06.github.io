@@ -32,6 +32,8 @@ In the repository’s **Settings → Pages**, choose **Deploy from a branch**, s
 
 Edit `index.html` to change text or links. Replace the two PDFs in `assets/` when the résumé changes; keep their filenames so existing links continue to work. The current paper review status is copied from the résumé: ICLR 2027.
 
+After editing `styles.css`, update its `v` query parameter in `index.html` to the first 12 characters of the stylesheet’s SHA-256 hash (`sha256sum styles.css`). This avoids browsers reusing cached styles after an update. The footer can be linked directly with `#signature`.
+
 The profile photo is in `assets/profile.jpg`. Keep replacement photos square; the page displays the image with square corners at 208 × 208 pixels on desktop and 120 × 120 pixels on mobile.
 
 Check the desktop and mobile layouts before committing and pushing edits.
