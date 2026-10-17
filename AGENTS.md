@@ -2,7 +2,7 @@
 
 - Preserve the user’s résumé wording and keyword-style role descriptions. Make only minor grammar corrections unless asked for a rewrite.
 - The user’s name is Huikang Jiang / 姜惠康. Keep Simin Chen in English.
-- Publication author names are italicized without bold emphasis. Mark equal contribution with `*`: the first two SIGIL authors and the first three SteerScope authors.
+- Publication author names are italicized without bold emphasis. Mark equal contribution with `*`: the first two SIGIL authors and the first three SteerScope authors. Do not add an explanatory equal-contribution note.
 - Use the user's own square crop without further image edits. Display it with square corners. Preserve the photo unless the user asks to change it.
 - Keep this a simple static GitHub Pages website. No framework or build step is needed.
 - Text links inherit the surrounding text color and use underlines, including on hover. Keep the navigation buttons monochrome with their existing pill styling.
