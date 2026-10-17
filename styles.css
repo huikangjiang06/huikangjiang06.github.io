@@ -86,14 +86,14 @@ h3 { font-size: 16px; font-weight: 600; }
 .profile-photo {
   display: block;
   width: 176px;
-  height: 218px;
+  height: 176px;
   border-radius: 10%;
   background: var(--photo-background);
   object-fit: cover;
 }
 .introduction h2 { margin: 0 0 14px; padding: 0; border: 0; }
 .intro-contact { font-size: 15px; }
-.intro-contact a, .publication-status a { text-decoration: underline; text-underline-offset: 3px; }
+.introduction p a, .publication p a { text-decoration: underline; text-underline-offset: 3px; }
 
 main > section + section { margin-top: 32px; }
 section > h2 {
@@ -167,7 +167,7 @@ footer a { color: inherit; text-decoration: underline; text-underline-offset: 3p
   .button { min-height: 44px; padding: 6px 8px; gap: 5px; font-size: 14px; }
   .button svg { flex-basis: 16px; width: 16px; height: 16px; }
   .introduction { display: block; }
-  .profile-photo { float: left; width: 104px; height: 134px; margin: 3px 18px 10px 0; }
+  .profile-photo { float: left; width: 104px; height: 104px; margin: 3px 18px 10px 0; }
   .introduction::after { content: ""; display: block; clear: both; }
   .introduction h2 { margin-bottom: 12px; }
   .intro-contact { clear: both; padding-top: 2px; overflow-wrap: anywhere; }
