@@ -140,26 +140,26 @@ section > h2 {
 .award-result { color: var(--muted); font-size: 14px; text-align: right; flex-shrink: 0; }
 
 footer {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-  align-items: end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   gap: 16px;
   margin: 48px 0 28px;
   padding: 0 24px;
-  text-align: center;
+  text-align: right;
   color: var(--muted);
   font-size: 13px;
 }
-footer p { grid-column: 2; margin: 0; }
+footer p { margin: 0; }
 footer span { margin: 0 5px; }
 footer a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .personal-seal {
-  grid-column: 3;
-  justify-self: end;
+  flex: 0 0 auto;
   display: block;
   width: 88px;
   height: 88px;
   object-fit: contain;
+  transform: rotate(-90deg);
 }
 
 @media (max-width: 800px) {
