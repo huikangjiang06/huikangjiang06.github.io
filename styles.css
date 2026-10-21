@@ -125,6 +125,7 @@ section > h2 {
   white-space: nowrap;
 }
 .entry-heading h3 { flex: 1 1 480px; }
+.entry .advisor { margin-top: 12px; margin-bottom: 4px; }
 .publication { margin-bottom: 28px; }
 .publication h3 { font-size: 17px; line-height: 1.5; margin-bottom: 5px; }
 .publication p { margin-bottom: 7px; }
